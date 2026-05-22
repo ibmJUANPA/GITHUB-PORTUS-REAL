@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portus Real | Restaurante con vistas a la Bahia de Cadiz</title>
+  <meta name="description" content="Disfruta de la mejor gastronomia gaditana con vistas espectaculares a la bahia. Pescados frescos, mariscos, carnes selectas y eventos privados.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .menu-carta-wrapper { max-width: 960px; margin: 0 auto; }
+    .media-cover {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+    .hero-bg-image {
+      position: absolute;
+      inset: 0;
+    }
+    .menu-carta-image {
+      width: 100%;
+      aspect-ratio: 3 / 2;
+      min-height: 300px;
+      display: block;
+      object-fit: cover;
+      border-radius: 24px;
+      box-shadow: 0 18px 48px rgba(15, 23, 42, 0.16);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header id="navbar" class="navbar">
+    <nav class="nav-container">
+      <a href="#inicio" class="logo" aria-label="Portus Real">
+        <img src="img/cropped-portus-real-logo-1-1-380x300.png" alt="Portus Real" class="logo-image">
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#experiencias">Experiencias</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      
+      <a href="https://themeforest.net/user/fuelthemes/portfolio?ref=fuelthemes" target="_blank" rel="noopener noreferrer" class="btn-reservar">Reservar</a>
+      
+      <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Abrir menu">
+        <svg class="icon-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg class="icon-close hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul class="mobile-nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#menú">Menu</a></li>
+        <li><a href="#experiencias">Experiencias</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="https://themeforest.net/user/fuelthemes/portfolio?ref=fuelthemes" target="_blank" rel="noopener noreferrer" class="btn-reservar-mobile">Reservar</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-bg">
+      <img src="img/FOTO.jpeg" alt="Vista panoramica de Portus Real" class="media-cover hero-bg-image">
+      <div class="hero-overlay"></div>
+    </div>
+    
+    <div class="hero-content">
+      <p class="hero-subtitle">Restaurante con vistas a la bahia</p>
+      <h1 class="hero-title">Buscas el mejor sabor tradicional con un toque moderno?</h1>
+      <p class="hero-desc">Donde la tradicion marinera se fusiona con la innovacion gastronomica</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">Nuestro Menu</a>
+        <a href="#nosotros" class="btn btn-outline">Descubrir Mas</a>
+      </div>
+    </div>
+    
+    <a href="#nosotros" class="scroll-indicator" aria-label="Scroll down">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="6,9 12,15 18,9"></polyline>
+      </svg>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="nosotros" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="image-wrapper">
+            <img src="img/97e6581d-ab53-429c-b714-066740fdadfc-1152x1536.jpg" alt="Interior de Portus Real" class="media-cover">
+          </div>
+          <div class="image-frame"></div>
+          <div class="image-glow"></div>
+        </div>
+        
+        <div class="about-content">
+          <p class="section-subtitle">Nuestra Historia</p>
+          <h2 class="section-title">Una experiencia gastronomica unica</h2>
+          <div class="about-text">
+            <p>Con vistas a la bahia de Cadiz, Portus Real te invita a un viaje culinario donde la tradicion marinera se fusiona con la innovacion gastronomica.</p>
+            <p>Cada plato, desde el fresquisimo pescado salvaje hasta los sabores autenticos de la cocina gaditana, es una celebracion de los productos locales y la pasion por el buen comer.</p>
+            <p>Mas alla de las cenas y comidas, en Portus Real tambien somos el escenario ideal para tus eventos mas especiales: desde bodas de ensueno y cumpleanos inolvidables hasta bautizos, comuniones y cualquier otra celebracion que desees.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <p class="stat-number">15+</p>
+              <p class="stat-label">Anos de experiencia</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <p class="stat-number">100%</p>
+              <p class="stat-label">Productos locales</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiences Section -->
+  <section id="experiencias" class="experiences">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Nuestras Experiencias</p>
+        <h2 class="section-title">Mas que un restaurante, una experiencia completa</h2>
+        <p class="section-desc">En Portus Real encontraras el ambiente perfecto para crear recuerdos duraderos, mientras disfrutas de unas vistas espectaculares y un servicio excepcional.</p>
+      </div>
+      
+      <div class="experiences-grid">
+        <!-- Sabor -->
+        <div class="experience-card">
+          <div class="experience-image">
+            <img src="img/IMG_20250518_151658-1140x845.jpg" alt="Gastronomia de Portus Real" class="media-cover">
+          </div>
+          <div class="experience-content">
+            <div class="experience-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                <path d="M7 2v20"></path>
+                <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path>
+              </svg>
+            </div>
+            <h3 class="experience-title">Sabor</h3>
+            <p class="experience-desc">Te invitamos a un viaje culinario donde la frescura del Atlantico se fusiona con la tradicion gaditana. Disfruta de nuestros pescados y mariscos salvajes, las carnes mas selectas y una cuidada seleccion de arroces.</p>
+          </div>
+        </div>
+        
+        <!-- Copas -->
+        <div class="experience-card">
+          <div class="experience-image">
+            <img src="img/5b38c2ff-ea8c-480c-ab53-d4a2b8b99edf-1300x650.jpg" alt="Zona chill out de Portus Real" class="media-cover">
+          </div>
+          <div class="experience-content">
+            <div class="experience-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8 22h8"></path>
+                <path d="M12 18v4"></path>
+                <path d="M6 2v6a6 6 0 0 0 12 0V2"></path>
+              </svg>
+            </div>
+            <h3 class="experience-title">Copas</h3>
+            <p class="experience-desc">Momentos para brindar, momentos para relajarse. Nuestro exclusivo chill out es el rincon perfecto para relajarte con un aperitivo bajo el sol de Cadiz o una copa tranquila al atardecer.</p>
+          </div>
+        </div>
+        
+        <!-- Ritmo -->
+        <div class="experience-card">
+          <div class="experience-image">
+            <img src="img/ee6c134b-150d-439b-92e5-918464c34965-1300x650.jpg" alt="Ambiente en Portus Real" class="media-cover">
+          </div>
+          <div class="experience-content">
+            <div class="experience-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18V5l12-2v13"></path>
+                <circle cx="6" cy="18" r="3"></circle>
+                <circle cx="18" cy="16" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="experience-title">Ritmo</h3>
+            <p class="experience-desc">Conciertos que inspiran, momentos que cautivan. Descubre nuestra programacion de conciertos en vivo, donde el talento local y el mejor ambiente se dan cita para crear noches inolvidables.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <div class="menu-bg-decoration"></div>
+    <div class="menu-glow"></div>
+    
+    <div class="container">
+      <div class="section-header menu-header">
+        <p class="section-subtitle">Nuestro Menu</p>
+        <h2 class="section-title">Nuestra carta</h2>
+        <p class="section-desc">Descubre todos nuestros platos y especialidades.</p>
+      </div>
+
+      <div class="menu-carta-wrapper">
+        <img src="img/FOTO-CARTA.jpeg" alt="Carta del restaurante Portus Real" class="menu-carta-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="galeria" class="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Galeria</p>
+        <h2 class="section-title">Momentos que inspiran</h2>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large">
+          <img src="img/217ddd2c-0672-4fab-aac2-78f00666120d-1140x1050.jpg" alt="Plato destacado de Portus Real" class="media-cover">
+          <div class="gallery-overlay"></div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="img/92e5f8e0-e2fd-4a48-abf0-5f802451a70c-1600x975.jpg" alt="Vista desde la terraza de Portus Real" class="media-cover">
+          <div class="gallery-overlay"></div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="img/ec55d237-a53e-42ce-beae-fecca99d6f02-1140x900.jpg" alt="Interior del restaurante Portus Real" class="media-cover">
+          <div class="gallery-overlay"></div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="img/97e6581d-ab53-429c-b714-066740fdadfc-1140x900.jpg" alt="Detalle gastronomico de Portus Real" class="media-cover">
+          <div class="gallery-overlay"></div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="img/80ee976d-89a6-4d52-90bc-4ecdf67b0526-1024x768.jpg" alt="Cocina y preparacion en Portus Real" class="media-cover">
+          <div class="gallery-overlay"></div>
+        </div>
+        
+        <div class="gallery-item gallery-wide">
+          <img src="img/20685596-17cd-4a18-a616-8aa74747dfe3-2048x900.jpg" alt="Espacio preparado para evento en Portus Real" class="media-cover">
+          <div class="gallery-overlay"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="eventos" class="events">
+    <div class="container">
+      <div class="events-grid">
+        <div class="events-content">
+          <p class="section-subtitle">Eventos Privados</p>
+          <h2 class="section-title">Celebra con nosotros tu evento privado</h2>
+          <p class="events-desc">Bodas, comuniones, cumpleanos, bautizos y cualquier celebracion especial. Encontraras el ambiente perfecto para crear recuerdos duraderos, mientras disfrutas de unas vistas espectaculares y un servicio excepcional.</p>
+          
+          <div class="events-types">
+            <div class="event-type"><span class="event-dot"></span>Bodas</div>
+            <div class="event-type"><span class="event-dot"></span>Comuniones</div>
+            <div class="event-type"><span class="event-dot"></span>Cumpleanos</div>
+            <div class="event-type"><span class="event-dot"></span>Bautizos</div>
+          </div>
+          
+          <a href="#contacto" class="btn btn-primary">Solicitar Informacion</a>
+        </div>
+        
+        <div class="events-images">
+          <div class="events-col">
+            <div class="event-image event-image-tall">
+              <img src="img/PHOTO-2025-05-18-22-47-293-760x1200.jpg" alt="Celebracion en Portus Real" class="media-cover">
+            </div>
+            <div class="event-image event-image-square">
+              <img src="img/ef43f764-3095-4d70-9faa-8c229cb37602-1140x1050.jpg" alt="Evento en Portus Real" class="media-cover">
+            </div>
+          </div>
+          <div class="events-col events-col-offset">
+            <div class="event-image event-image-square">
+              <img src="img/9cb7ffd8-9dfd-49cb-aff7-2402d6247207-1140x900.jpg" alt="Celebracion en grupo en Portus Real" class="media-cover">
+            </div>
+            <div class="event-image event-image-tall">
+              <img src="img/PHOTO-2025-05-18-22-47-304-760x1200.jpg" alt="Terraza de Portus Real" class="media-cover">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contacto" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Contacto</p>
+        <h2 class="section-title">Estaremos encantados de ayudarte</h2>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div>
+              <h3>Telefono</h3>
+              <a href="tel:+34640977324">640 97 73 24</a>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:info@portusreal.com">info@portusreal.com</a>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div>
+              <h3>Ubicacion</h3>
+              <p>Puerto Sherry, El Puerto de Santa Maria<br>Cadiz, Espana</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div>
+              <h3>Horario</h3>
+              <p>Martes - Domingo: 13:00 - 00:00<br>Lunes: Cerrado</p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <p class="social-label">Siguenos</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/portus.real?igsh=MXBsZWFoZjNjcDJrYQ%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/people/Portus-Real/61574113361591/?mibextid=wwXIfr&rdid=4AIq6OrKQEBKxFzN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1C3H19FU64%2F%3Fmibextid%3DwwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-wrapper">
+          <h3>Envianos un mensaje</h3>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefono</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#inicio" class="footer-logo">Portus Real</a>
+          <p class="footer-desc">Con vistas a la bahia de Cadiz, te invitamos a un viaje culinario donde la tradicion marinera se fusiona con la innovacion gastronomica.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/portus.real?igsh=MXBsZWFoZjNjcDJrYQ%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/people/Portus-Real/61574113361591/?mibextid=wwXIfr&rdid=4AIq6OrKQEBKxFzN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1C3H19FU64%2F%3Fmibextid%3DwwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Enlaces Rapidos</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#experiencias">Experiencias</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="tel:+34640977324">640 97 73 24</a></li>
+            <li><a href="mailto:info@portusreal.com">info@portusreal.com</a></li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Puerto Sherry, El Puerto de Santa Maria, Cadiz
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 Portus Real. Todos los derechos reservados.</p>
+        <div class="footer-legal">
+          <a href="#">Politica de Privacidad</a>
+          <a href="#">Aviso Legal</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
